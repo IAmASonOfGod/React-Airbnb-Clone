@@ -1,0 +1,48 @@
+.banner {
+  height: calc(100vh - 100px);
+  position: relative;
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.banner_info {
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+  border-radius: 15px; /* Rounded corners */
+  margin: 20px; /* Space from the edges */
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}

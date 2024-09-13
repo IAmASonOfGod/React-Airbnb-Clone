@@ -1,0 +1,49 @@
+/* Ensures the search container is centered */
+.search {
+  position: absolute;
+  top: 35px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjusts centering */
+  width: auto;
+}
+
+/* Adjusting the h2 to prevent overflow */
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  top: 0;
+  margin-bottom: 10px; /* Adds some spacing */
+}
+
+/* Making the input field and button the same width */
+.search > input,
+.search > button {
+  width: 100%; /* Both elements take full width */
+  box-sizing: border-box; /* Ensures padding and border don't affect the width */
+  padding: 10px 20px; /* Add padding to match button look */
+  position: relative;
+  border: none;
+}
+
+/* Button styling */
+.search > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit !important;
+  cursor: pointer;
+  margin-top: 10px; /* Space between input and button */
+  height: auto; /* Allow button to auto-size */
+}
+
+/* Ensures no scrolling */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; /* Only prevents horizontal scrolling */
+  overflow-y: auto; /* Allows vertical scrolling */
+}

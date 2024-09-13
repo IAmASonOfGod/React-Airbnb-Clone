@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lesego Ratau",
+      "email": "rataulesego@gmail.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": 2,
+      "name": "Patrick Rashidi",
+      "email": "prashidi@123.com",
+      "phone": "1-770-736-8031"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "StartDate": "2024-10-20",
+      "EndDate": "2024-10-21",
+      "userId": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "img": "https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
+      "price": "£120/night",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 12345,
+      "address": "Main Street",
+      "city": "London",
+      "street": "Elm Street",
+      "sq_ft": 1.5,
+      "email": "example1@example.com",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/originals/fe/d0/17/fed017520c7f0c25db8c91b80d20e538.jpg",
+      "title": "Penthouse in London",
+      "description": "Enjoy the amazing sights of London with this penthouse.",
+      "price": "£350/night",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "img": "https://th.bing.com/th/id/R.71b7e7721662da649f461a52400629ae?rik=cpa1Iw0HZAXAEw&pid=ImgRaw&r=0",
+      "title": "Unique Stays",
+      "description": "Spaces that are more than just a place to sleep.",
+      "price": "£150/night",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "sq_ft": 2.0,
+      "email": "example2@example.com",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "img": "https://theartofarchitecture.com/wp-content/uploads/2017/06/cedarhaven_2_ext.jpg",
+      "title": "Entire Homes",
+      "description": "Comfortable private places, with room for friends or family.",
+      "price": "£200/night",
+      "bath_num": 4,
+      "bed_num": 3,
+      "zip": 34567,
+      "address": "Side Street",
+      "city": "Manchester",
+      "street": "Broadway",
+      "sq_ft": 3.0,
+      "email": "example3@example.com",
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "img": "https://th.bing.com/th/id/R.6300b604b785a2bbf6a6a84fabcafdc6?rik=SO%2bVzwB9%2bzpXzw&riu=http%3a%2f%2fcdn.home-designing.com%2fwp-content%2fuploads%2f2014%2f10%2fpretty-apartment-design.jpg&ehk=yltVQgFouhkAWk%2bsOwsHK5RV9uiEdP7vntwOqCA8Zcc%3d&risl=&pid=ImgRaw&r=0",
+      "title": "3 Bedroom Flat in Bournemouth",
+      "description": "Superhost with a stunning view of sunny Bournemouth.",
+      "price": "£130/night",
+      "bath_num": 2,
+      "bed_num": 3,
+      "zip": 45678,
+      "address": "Sunny Avenue",
+      "city": "Bournemouth",
+      "street": "Park Lane",
+      "sq_ft": 2.5,
+      "email": "example4@example.com",
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "img": "https://th.bing.com/th/id/R.724271c219390dd9db3fb6cdec4aad5a?rik=ccb1S%2bF%2fsH0JQQ&pid=ImgRaw&r=0",
+      "title": "1 Bedroom Apartment",
+      "description": "Superhost with amenities and a fabulous shopping complex nearby.",
+      "price": "£70/night",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": 56789,
+      "address": "Central Road",
+      "city": "Bristol",
+      "street": "Main Street",
+      "sq_ft": 1.0,
+      "email": "example5@example.com",
+      "userId": 6
+    }
+  ]
+}

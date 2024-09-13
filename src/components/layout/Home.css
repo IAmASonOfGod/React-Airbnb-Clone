@@ -1,0 +1,6 @@
+.home_section {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards if there are more than three */
+  justify-content: space-between; /* Ensure space between cards */
+  padding: 30px;
+}
