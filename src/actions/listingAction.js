@@ -9,7 +9,9 @@ export const listListing = () => async (dispatch) => {
   try {
     dispatch({ type: LISTING_LIST_REQUEST });
 
-    const response = await axios.get("http://localhost:5000/listings");
+    const response = await axios.get(
+      "https://react-airbnb-clone-backend.onrender.com/listings"
+    );
     console.log("Axios response data:", response.data); // Log the response data here
 
     dispatch({ type: LISTING_LIST_SUCCESS, payload: response.data });

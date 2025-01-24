@@ -19,7 +19,7 @@ export const login = (email, password) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      "http://localhost:5000/login",
+      "https://react-airbnb-clone-backend.onrender.com/login",
       { email, password },
       config
     );
