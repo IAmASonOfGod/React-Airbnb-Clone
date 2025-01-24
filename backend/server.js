@@ -6,7 +6,7 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 
-server.use(cors({ origin: "https://majestic-macaron-bc4906.netlify.app" }));
+server.use(cors({ origin: "https://stupendous-bunny-30640c.netlify.app/" }));
 
 server.use(middlewares);
 
